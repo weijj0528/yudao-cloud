@@ -150,18 +150,21 @@ knife4j:
       - name: infra-server
         service-name: infra-server
         url: /admin-api/infra/v3/api-docs
-      - name: member-server
-        service-name: member-server
-        url: /admin-api/member/v3/api-docs
       - name: bpm-server
         service-name: bpm-server
         url: /admin-api/bpm/v3/api-docs
+      - name: report-server
+        service-name: report-server
+        url: /admin-api/report/v3/api-docs
       - name: pay-server
         service-name: pay-server
         url: /admin-api/pay/v3/api-docs
       - name: mp-server
         service-name: mp-server
         url: /admin-api/mp/v3/api-docs
+      - name: member-server
+        service-name: member-server
+        url: /admin-api/member/v3/api-docs
       - name: product-server
         service-name: product-server
         url: /admin-api/product/v3/api-docs

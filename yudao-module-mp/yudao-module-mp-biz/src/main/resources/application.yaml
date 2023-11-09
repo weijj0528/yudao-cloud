@@ -82,7 +82,10 @@ wx:
       type: RedisTemplate # 采用 RedisTemplate 操作 Redis，会自动从 Spring 中获取
       key-prefix: wx # Redis Key 的前缀
       http-client-type: HttpClient # 采用 HttpClient 请求微信公众号平台
-    app-id: null # 避免 weixin-java-mp starter 报错
+    app-id: wx41e095d2511cb2a6 # 避免 weixin-java-mp starter 报错
+    secret: 24b51631f421b19c544a80b9059efe6e
+    token:  24b51631f421b19c544a80b9059efe6e
+    aesKey: 24b51631f421b19c544a80b9059efe6e
 
 --- #################### 芋道相关配置 ####################
 
