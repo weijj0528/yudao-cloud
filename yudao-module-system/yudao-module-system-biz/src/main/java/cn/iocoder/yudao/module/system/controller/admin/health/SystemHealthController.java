@@ -17,7 +17,7 @@ import javax.annotation.security.PermitAll;
 @RestController
 @RequestMapping("/system/health")
 @Validated
-public class HealthController {
+public class SystemHealthController {
     @GetMapping()
     @Operation(summary = "健康检查")
     @PermitAll

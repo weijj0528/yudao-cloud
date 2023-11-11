@@ -6,5 +6,5 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration(proxyBeanMethods = false)
 @EnableFeignClients(clients = AdminUserApi.class)
-public class RpcConfiguration {
+public class InfraRpcConfiguration {
 }

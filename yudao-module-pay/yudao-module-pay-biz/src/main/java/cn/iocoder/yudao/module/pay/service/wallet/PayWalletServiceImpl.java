@@ -37,6 +37,7 @@ public class PayWalletServiceImpl implements  PayWalletService {
     @Resource
     private PayWalletMapper walletMapper;
     @Resource
+    @Lazy
     private PayWalletTransactionService walletTransactionService;
     @Resource
     @Lazy

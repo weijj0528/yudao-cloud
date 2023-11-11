@@ -1,19 +1,19 @@
-package cn.iocoder.yudao.module.pay.framework.security.config;
+package cn.iocoder.yudao.module.member.framework.security.config;
 
 import cn.iocoder.yudao.framework.security.config.AuthorizeRequestsCustomizer;
-import cn.iocoder.yudao.module.pay.enums.ApiConstants;
+import cn.iocoder.yudao.module.member.enums.ApiConstants;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configurers.ExpressionUrlAuthorizationConfigurer;
 
 /**
- * Pay 模块的 Security 配置
+ * Member 模块的 Security 配置
  */
-@Configuration("paySecurityConfiguration")
-public class SecurityConfiguration {
+@Configuration("memberSecurityConfiguration")
+public class MemberSecurityConfiguration {
 
-    @Bean("payAuthorizeRequestsCustomizer")
+    @Bean("memberAuthorizeRequestsCustomizer")
     public AuthorizeRequestsCustomizer authorizeRequestsCustomizer() {
         return new AuthorizeRequestsCustomizer() {
 
